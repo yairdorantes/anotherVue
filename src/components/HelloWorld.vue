@@ -5,8 +5,6 @@ defineProps({
   msg: String,
 });
 
-const count = ref(0);
-
 const path = this.$route.params.id;
 console.log(path);
 </script>
@@ -14,7 +12,6 @@ console.log(path);
 <template>
   <h1>{{ msg }}</h1>
   <h1>params {{ $route.params.id }}</h1>
-
   <div class="card">
     <button type="button" @click="count++">count is nice {{ count }}</button>
     <p>
