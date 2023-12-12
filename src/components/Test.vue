@@ -13,5 +13,5 @@ function changeValue() {
 <template>
   <h1>hello world motherfucker test</h1>
   <h1>{{ name }}</h1>
-  <button class="btn" @click="changeValue">write</button>
+  <button class="btn btn-accent" @click="changeValue">write</button>
 </template>
